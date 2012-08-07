@@ -7,13 +7,13 @@ gem 'rails', '3.0.1'
 
 #gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 #gem 'sqlite3-ruby', '1.2.5', :group => :development
-gem 'pg'
+#gem 'pg'
 
 # http://stackoverflow.com/questions/11714336/heroku-push-fails-with-the-error-an-error-occurred-while-installing-sqlite3-rub :::
 
 group :development, :test do
-#      gem 'sqlite3'
-       gem 'pg'
+      gem 'sqlite3'
+#       gem 'pg'
 end
 
 group :production do
